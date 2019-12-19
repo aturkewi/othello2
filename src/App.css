@@ -1,0 +1,36 @@
+.app {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px ;
+  grid-row-gap: 5px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px ;
+  grid-column-gap: 5px;
+}
+
+.cell {
+
+}
+
+.player1 {
+  background-color: #12545e;
+}
+
+.player2 {
+  background-color: #e24646;
+}
+
+.player0 {
+  background-color: white;
+}
